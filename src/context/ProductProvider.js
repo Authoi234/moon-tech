@@ -1,8 +1,22 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useContext, useEffect, useReducer } from 'react';
 
 const PRODUCT_CONTEXT = createContext();
 
 const ProductProvider = ({children}) => {
+
+    const initialState = {}
+
+    const productReducer = (state, action) => {
+        return;
+    }
+
+    const [state, dispatch] = useReducer(productReducer, initialState)
+
+    useEffect(()=>{
+        fetch('/products/products.json')
+        .then(res => res.json())
+        .then(data => console.log(data))
+    }, [])
 
     const value = {test:'TEST'}
 
