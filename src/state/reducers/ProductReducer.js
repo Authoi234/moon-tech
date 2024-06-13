@@ -1,9 +1,10 @@
-import { FETCHING_ERROR, FETCHING_START, FETCHING_SUCCESS } from "../actionTypes/ActionTypes";
+import { ADD_TO_CART, FETCHING_ERROR, FETCHING_START, FETCHING_SUCCESS } from "../actionTypes/ActionTypes";
 
 export const initialState = {
-    loading: 'false',
+    loading: false,
     products: [],
-    error: 'false'
+    error: false,
+    cart: []
 }
 
 export const productReducer = (state, action) => {
@@ -11,19 +12,25 @@ export const productReducer = (state, action) => {
         case FETCHING_START:
             return{
                 ...state,
-                loading: 'true'
+                loading: true
             };
         case FETCHING_SUCCESS:
             return{
                 ...state,
-                loading: 'false',
+                loading: false,
                 products: action.payload
             };
         case FETCHING_ERROR:
             return{
                 ...state,
-                loading: 'false',
-                error: 'true'
+                loading: false,
+                error: true
+            };
+        case ADD_TO_CART:
+            return{
+                ...state,
+                loading: false,
+                error: true
             };
         default:
             return state;

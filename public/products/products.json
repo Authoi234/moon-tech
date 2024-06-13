@@ -6,7 +6,7 @@
           "image": "https://media.ldlc.com/r1600/ld/products/00/05/83/08/LD0005830899_1_0005835551.jpg",
           "status": true,
           "keyfeatures": ["Intel Core i9", "NVIDIA GeForce RTX 3090", "32GB RAM"],
-          "ratings": 4.8,
+          "ratings": 4,
           "price": 3499.99,
           "spec": {
             "processor": "Intel Core i9-11900KF",
@@ -24,7 +24,7 @@
           "image": "https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/5153967/1867709/con-win-dt-p-omen-30l-gt13-1114-product-specifications/orisa-premium-chassis",
           "status": true,
           "keyfeatures": ["AMD Ryzen 9", "NVIDIA GeForce RTX 3080", "32GB RAM"],
-          "ratings": 4.6,
+          "ratings": 1,
           "price": 2999.99,
           "spec": {
             "processor": "AMD Ryzen 9 5900X",
@@ -42,7 +42,7 @@
           "image": "https://m.media-amazon.com/images/I/81K2mMtH64L._UF1000,1000_QL80_.jpg",
           "status": true,
           "keyfeatures": ["Intel Core i9", "NVIDIA GeForce RTX 3080 Ti", "64GB RAM"],
-          "ratings": 4.7,
+          "ratings": 5,
           "price": 3199.99,
           "spec": {
             "processor": "Intel Core i9-11900K",
@@ -60,7 +60,7 @@
           "image": "https://images-cdn.ubuy.co.in/65165a59d051ad3512046e06-msi-meg-trident-x-gaming-desktop-tower.jpg",
           "status": true,
           "keyfeatures": ["Intel Core i7", "NVIDIA GeForce RTX 3070", "32GB RAM"],
-          "ratings": 4.5,
+          "ratings": 5,
           "price": 2799.99,
           "spec": {
             "processor": "Intel Core i7-10700K",
@@ -78,7 +78,7 @@
           "image": "https://dlcdnwebimgs.asus.com/gain/FD587941-A2E8-4CB0-86BA-63F078491C26",
           "status": true,
           "keyfeatures": ["AMD Ryzen 9", "NVIDIA GeForce RTX 3080", "32GB RAM"],
-          "ratings": 4.8,
+          "ratings": 3,
           "price": 2899.99,
           "spec": {
             "processor": "AMD Ryzen 9 5900X",
@@ -96,7 +96,7 @@
           "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6500/6500513_rd.jpg",
           "status": true,
           "keyfeatures": ["AMD Ryzen 7", "NVIDIA GeForce RTX 3060", "16GB RAM"],
-          "ratings": 4.3,
+          "ratings": 4.5,
           "price": 1599.99,
           "spec": {
             "processor": "AMD Ryzen 7 5800X",
@@ -114,7 +114,7 @@
           "image": "https://cdn.mos.cms.futurecdn.net/awc7FHfX2QCYGd4utbC5J9.jpg",
           "status": true,
           "keyfeatures": ["Intel Core i7", "NVIDIA GeForce RTX 3070", "16GB RAM"],
-          "ratings": 4.6,
+          "ratings": 3,
           "price": 1999.99,
           "spec": {
             "processor": "Intel Core i7-10700K",
